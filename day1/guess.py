@@ -10,15 +10,15 @@ while True:
         break
     guess_age = int(input("guess age:"))
     if guess_age == age:
-        print("Yes you got it. ")
+        print("Yes, you got it. ")
         break
     elif guess_age> age:
         print("think smaller...")
     else:
         print("think bigger!")
-
     count +=1
-
+if count ==3:
+    print("you have tried too many times.. fuck off")
 
 
 
