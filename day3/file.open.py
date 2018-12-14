@@ -6,17 +6,24 @@
 
 import os
 import sys
-f = open("yesterday",'r',encoding="utf-8")
-for i in range(5):
-    print(f.readline())
+# f = open("yesterday",'r',encoding="utf-8")
+# for i in range(5):
+#     print(f.readline())
+#
+#
+# for line in f.readline():
+#     print(line.strip())
+#
+# for index,line in enumerate(f.readline()):
+#     print(line.strip())
+#     if index == 9:
+#         print('-----------**-----------')
+#         continue
+#     print(line.strip)
+
+# f = open("yesterday2",'wb')
+# f.write("hello".encode())
+# f.close()
+#
 
 
-for line in f.readline():
-    print(line.strip())
-
-for index,line in enumerate(f.readline()):
-    print(line.strip())
-    if index == 9:
-        print('-----------**-----------')
-        continue
-    print(line.strip)
