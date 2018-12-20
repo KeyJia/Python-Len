@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time: 2018/12/17 15:03
 # @Author: KeyJia
-# @File: decorator.py
+# @File: decorator2.py
 
 # import time
 #
@@ -30,4 +30,5 @@ def test2(func):
     return func
 
 # print(test2(bar))
-test2(bar)
+bar=test2(bar)
+bar()
