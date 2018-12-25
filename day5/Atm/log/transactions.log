@@ -1,0 +1,5 @@
+2018-12-24 17:25:00,415 - transaction - INFO - account:1234   action:withdraw    amount:6000.0   interest:300.0
+2018-12-24 17:25:18,521 - transaction - INFO - account:1234   action:repay    amount:9000.0   interest:0.0
+2018-12-24 17:25:22,597 - transaction - INFO - account:1234   action:repay    amount:90000.0   interest:0.0
+2018-12-24 17:25:25,731 - transaction - INFO - account:1234   action:repay    amount:900000000.0   interest:0.0
+2018-12-24 17:25:52,614 - transaction - INFO - account:1234   action:repay    amount:5e+18   interest:0.0
