@@ -11,7 +11,6 @@ from module_key import logger as logger_key
 import sys,os,day5
 print(sys.path)
 
-import
 
 print(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append()
